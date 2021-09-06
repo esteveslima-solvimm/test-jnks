@@ -2,7 +2,7 @@ pipeline {
     agent {label 'test-worker'}            // restrict build to workers with this label
 
     environment {               // create custom environment variables
-        SOME_ENV_VAR = 'foo'
+        SOME_ENV_VAR = 'bar'
         // SOME_CREDENTIALS = credentials('someCredential')   //TODO: requires plugin "Credentials Binding"
     }
 
